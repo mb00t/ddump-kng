@@ -1,0 +1,4 @@
+%syntax-version=1.0.0
+%project=app
+
+0000000001-initial 2019-03-23T22:02:59Z root <root@dbn-acer> # Add 0000000001-initial migration
