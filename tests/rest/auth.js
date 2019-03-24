@@ -10,7 +10,6 @@ describe('auth', function () {
       .post('/rpc/login?select=me,token')
       .set('Accept', 'application/vnd.pgrst.object+json')
       .send({
-        email: 'alice@email.com',
         password: 'pass'
       })
       .expect('Content-Type', /json/)
